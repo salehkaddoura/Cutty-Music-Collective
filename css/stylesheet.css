@@ -1,0 +1,471 @@
+/*////////////////////////////////////////////////////////////////////*/
+/*FONTS*/
+/*///////////////////////////////////////////////////////////////////*/
+@font-face {
+	font-family: BebasNeu;
+	src: url(c:/users/saleh/desktop/cuttymc/fonts/BebasNeue.otf);
+}
+
+@font-face {
+	font-family: Franchise;
+	src: url(c:/users/saleh/desktop/cuttymc/fonts/Franchise-Bold.ttf);
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url(c:/users/saleh/desktop/cuttymc/fonts/HelveticaLTStd-Light.otf);
+}
+
+@font-face {
+	font-family: LeagueGothic;
+	src: url(c:/users/saleh/desktop/cuttymc/fonts/LeagueGothic-Regular.otf);
+}
+
+@font-face {
+	font-family: OpenSans;
+	src: url(c:/users/saleh/desktop/cuttymc/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(c:/users/saleh/desktop/cuttymc/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+	font-family: Capture;
+	src: url(c:/users/saleh/desktop/cuttymc/fonts/Capture_it.ttf);
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+/*GENERAL CSS*/
+/*//////////////////////////////////////////////////////////////////////*/
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#FFF;  #CfdCe6 #99c2d6  #e8e8e8
+}
+.main-container {
+	height: 905px;
+	width: 1905px;
+	/*border: 1px solid black;*/
+	margin: 1px auto auto auto;
+	background-color: #e8e8e8;
+}
+
+.sub-container {
+	height: 840px ;
+	width: 1900px;
+	/*border: 1px solid green;*/
+	background-color: #e8e8e8;
+	margin: auto;
+}
+
+.navbar-container {
+	height: 50px;
+	width: 1905px;
+	/*border: 1px solid red;*/
+	background-color: #2c3e50 ;
+	margin: auto;
+	border-bottom: 3px solid #7f8c8d;
+}
+
+.logo-container {
+	height: 45px;
+	width: 400px;
+	/*border: 1px solid orange;*/
+	margin: 1px;
+	float: left;
+}
+.logo-container p {
+	/*border: 1px solid white;*/
+	margin: 5px auto 2px auto;
+	color: #FFF;
+	font-family: 'Capture';
+	font-size: 2.000em;
+	width: 385px;
+}
+.logo-container a:link {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar-menu {
+	/*border: 1px solid white;*/
+	width: 400px;
+	height: 48px;
+	float: left;
+	margin: auto auto auto 30px;
+	position: ;
+	display: ;
+}
+.navbar-menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.navbar-menu li {
+	float: left;
+	text-align: center;
+	/*border: 1px solid red;*/
+	font-size: 2.000em;
+	color: #FFF;
+	/*border-bottom: 4px solid #7f8c8d;*/
+	font-family: 'BebasNeu';
+	margin: 6px 5px 1px 5px;
+	padding-top: 2px;
+	
+
+}
+.navbar-menu a:link {
+	/*border: 1px solid blue;*/
+
+	/*display: inline-block;*/
+	/*margin: auto;*/
+	/*font-weight: bold;*/
+	/*text-align: center; */
+	text-transform: ;
+	
+	
+}
+
+.navbar-menu li:hover {
+	text-transform: uppercase;
+	border-bottom: 3px solid red;
+}
+
+.search-container {
+	/*border: 1px solid white;*/
+	width: 300px;
+	height: 46px;
+	float: right;
+	margin: 1px 30px 1px 0px;
+}
+.search-container input {
+	height: 40px;
+	width: 300px;
+	margin: 3px auto 2px auto;
+	font-family: 'OpenSans';
+	font-size: 1.250em;
+	border: 1px solid #2c3e50;
+} 
+
+.sub-story-container {
+	width: 575px;
+	height: 700px;
+	border: 1px solid black;
+	margin: 5px 0px 0px 415px;
+}
+
+.footer-container {
+	height: 40px;
+	width: 500px;
+	/*border: 1px solid black;*/
+	float: left;
+	
+
+}
+#footer-container2 {
+	height: 35px;
+	width: 400px;
+	/*border: 1px solid blue;*/
+	margin: ;
+	
+}
+
+#footer-container2 p {
+	/*border:1px  solid orange;*/
+	font-size: 0.750em;
+	width: 200px;
+	text-align: center;
+	font-family:'OpenSans', Tahoma;
+	float: left;
+	color: #000;
+
+}
+
+#footer-list-container {
+	/*border: 1px solid black;*/
+	width: 175px;
+	height: ;
+	float: left;
+	margin: 12px auto auto auto ;
+}
+#footer-list-container ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/*border: 1px solid red; */
+	float: left;
+}
+
+#footer-list-container li {
+	float: left;
+	text-align: center;
+	font-size:0.750em;
+	margin: auto 5px auto 5px ;
+	font-family: 'OpenSans', Tahoma;
+	color: #000;
+
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+/*CSS FOR GENRE CONTAINERS*/
+/*//////////////////////////////////////////////////////////////////////*/
+#hiphop-container {
+	height: 800px;
+	width: 600px;
+	/*border: 1px solid blue;*/
+	float: left;
+	margin: 10px 12px 10px 12px;
+	overflow-x: hidden;
+	overflow-y:auto;
+	background-color: #f5f0eb; 
+	border: 2px solid #2c3e50;
+	border-radius: 2px ;
+	
+}
+
+#rock-container {
+	height: 800px;
+	width: 600px;
+	/*border: 1px solid blue;*/
+	float: left;
+	margin: 10px 12px 10px 12px;
+	overflow-x: hidden;
+	overflow-y:auto;
+	background-color: #f5f0eb; 
+	border: 2px solid #2c3e50;
+	border-radius: 2px ;
+	
+	
+}
+#electronic-container {
+	height: 800px;
+	width: 600px;
+	/*border: 1px solid blue;*/
+	float: left;
+	margin: 10px 12px 10px 12px;
+	overflow-x: hidden;
+	overflow-y:auto;
+	background-color: #f5f0eb; 
+	border: 2px solid #2c3e50;
+	border-radius: 2px ;
+
+}
+
+
+#hiphop-sub-genre-container {
+	width: 500px;
+	height: 43px;
+	border: 1px solid green;
+	margin: 1px 50px 0px 50px;
+}
+
+#hiphop-sub-genre-container ul {
+	margin: auto;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	border: 1px solid red;
+	width: 445px
+}
+
+#hiphop-sub-genre-container li {
+	float: left;
+	border: 1px solid black;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 24px;
+	padding: 3px;
+	margin: auto 5px auto 5px;
+}
+
+#electronic-sub-genre-container {
+	width: 500px;
+	height: 43px;
+	border: 1px solid green;
+	margin: 1px 50px 0px 50px;
+}
+
+#electronic-sub-genre-container ul {
+	margin: auto;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	border: 1px solid red;
+	width: 445px;
+}
+
+#electronic-sub-genre-container li {
+	float: left;
+	border: 1px solid black;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 1.500em;
+	padding: 3px;
+	margin: auto 5px auto 5px;
+
+}
+
+#rock-sub-genre-container {
+	width: 500px;
+	height: 43px;
+	border: 1px solid green;
+	margin: 1px 50px 0px 50px;
+}
+
+#rock-sub-genre-container ul {
+	margin: auto;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	border: 1px solid red;
+	width: 445px;
+}
+
+#rock-sub-genre-container li {
+	float: left;
+	border: 1px solid black;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 1.500em;
+	padding: 3px;
+	margin: auto 5px auto 5px;
+}
+
+
+#title-container {
+	width: 300px;
+	height: ;
+	/*border: 1px solid black;*/
+	margin: 0px auto 0px auto;
+}
+#title-container p {
+	text-align: center;
+	font-size: 2.375em;
+	/*border: 1px solid black;*/
+	margin: auto;
+	font-family: 'BebasNeu';
+	font-variant: ;
+	
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+/*CSS FOR STORY/NEWS CONTAINERS*/
+/*//////////////////////////////////////////////////////////////////////*/
+
+.news-container {
+	width: 580px;
+	height: ;
+	/*border: 1px solid green;*/
+	margin: 1px auto 0px auto;
+}
+
+#story-container {
+	width: 575px;
+	height: ;
+	/*border: 1px solid red;*/
+	margin: auto;
+}
+
+#story-header-container {
+	width: 570px;
+	height: ;
+	border-top: 2px solid black;
+	margin: auto;
+	background-color: #FFF;
+	margin-bottom: 2px; #f5f0eb
+}
+#story-header-container p {
+	/*border: 1px solid black;*/
+	margin: auto;
+	font-family: 'Helvetica';
+	padding-left: 2px;
+	font-size: 1.750em;
+	color: #000;
+}
+
+#sd-story-container2 {
+	width: 570px;
+	height: 166px;
+	/*border: 1px solid orange;*/
+	margin: auto;
+}
+
+#yb-story-container2 {
+	width: 420px;
+	height: 315;
+	/*border: 1px solid orange;*/
+	margin: auto;
+}
+
+#sd-story-container2 iframe {
+	width: 100%;
+	height: 166px;
+}
+
+#yb-story-container2 iframe {
+	width: 420px;
+	height: 315px;
+}
+#story-content-container {
+	width: 570px;
+	height: ;
+	border-top: 3px solid #f5f0eb;
+	margin: auto;
+
+}
+#story-content-container p {
+	font-family: 'OpenSans';
+	font-size:0.875em;
+	padding: 0px 1px 0px 1px;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////   EXTRA ////////////////////////
+
+#indie-container {
+	height: 800px;
+	width: 600px;
+	border: 1px solid blue;
+	float: left;
+	margin: 10px auto 10px auto;
+	overflow-x: hidden;
+	overflow-y:auto;
+	background-color: #e8e8e8;
+}
+#reggae-container {
+	height: 800px;
+	width: 600px;
+	border: 1px solid blue;
+	float: left;
+	margin: 10px auto 10px auto;
+	overflow-x: hidden;
+	overflow-y:auto;
+	background-color: #f5f0eb;
+}
+
+#indie-sub-genre-container {
+	width: 500px;
+	height: 50px;
+	border: 1px solid green;
+	margin: 1px 50px 0px 50px;
+}
+
+#reggae-sub-genre-container {
+	width: 500px;
+	height: 50px;
+	border: 1px solid green;
+	margin: 1px 50px 0px 50px;
+}
+
+///////////////////////////////////////////////////////*/

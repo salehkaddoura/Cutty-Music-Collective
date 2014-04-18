@@ -1,0 +1,26 @@
+-hashtags
+-featured artist
+-top commented
+-most liked
+-most shared
+-editors pick
+-podacasts
+-forums (discussion board)
+-point system
+-promotion system
+-pay to be featured/sponsored
+-editor promotions
+-login system/user accounts
+-possible muisc player
+-allow aritsts to sell their music
+-exclusivity ony artists can create pages/accounts which they can share
+-self promotion
+-give you the tools to succeed
+-soundcloud story container
+-youtube story container
+-add jquery
+
+//everything will stay inside individual divs and make the divs scrollable 
+//each div(genre) works seperately
+//give each genre a title when user mouses over title subgenres appear or slide out or 
+title hides subgenres appear
